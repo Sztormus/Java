@@ -3,9 +3,9 @@ public class Complex
     private double a;
     private double b;
 
-    public static Complex I = new Complex(0, 1);
-    public static Complex ZERO = new Complex();
-    public static Complex ONE = new Complex(1, 0);
+    public static final Complex I = new Complex(0, 1);
+    public static final Complex ZERO = new Complex();
+    public static final Complex ONE = new Complex(1, 0);
 
     Complex(double _a)
     {
